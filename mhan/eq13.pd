@@ -1,0 +1,352 @@
+#N canvas 644 169 296 133 8;
+#N canvas 812 22 657 1117 \$0-statesaving 0;
+#X floatatom 449 70 5 0 0 0 - - -;
+#X obj -8 111 list prepend;
+#X msg -8 25 save;
+#X msg -8 25 save;
+#X obj -8 1075 prepend load;
+#X obj -8 4 r \$0-spresetsave;
+#X msg -8 155 eq0 0.982759 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 1 \, eq2 0.844828 \,
+eq1 0.551724 \,;
+#X msg 5 209 eq0 0.0172414 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0 \, eq4 0.0689655 \, eq3 0 \, eq2 0 \, eq1 0 \,;
+#X msg 18 263 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 31 317 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 44 371 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 57 425 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 70 479 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X obj 49 88 r \$0-sps;
+#X obj 390 92 save.me.mmb eq1 \$0-eq13;
+#X obj 390 70 r \$0-seq1;
+#X obj 390 114 s \$0-req1;
+#X floatatom 449 137 5 0 0 0 - - -;
+#X floatatom 449 203 5 0 0 0 - - -;
+#X floatatom 449 270 5 0 0 0 - - -;
+#X floatatom 450 335 5 0 0 0 - - -;
+#X floatatom 450 402 5 0 0 0 - - -;
+#X floatatom 576 5 5 0 0 0 - - -;
+#X floatatom 576 72 5 0 0 0 - - -;
+#X floatatom 576 137 5 0 0 0 - - -;
+#X floatatom 576 204 5 0 0 0 - - -;
+#X floatatom 576 270 5 0 0 0 - - -;
+#X floatatom 576 337 5 0 0 0 - - -;
+#X floatatom 577 402 5 0 0 0 - - -;
+#X obj -8 67 my.hero.mmb \$0-eq13;
+#X obj -8 1096 s \$0-load-eq13;
+#X obj -1 46 r \$0-load-eq13;
+#X obj 390 137 r \$0-seq2;
+#X obj 390 159 save.me.mmb eq2 \$0-eq13;
+#X obj 390 181 s \$0-req2;
+#X obj 390 203 r \$0-seq3;
+#X obj 390 225 save.me.mmb eq3 \$0-eq13;
+#X obj 390 247 s \$0-req3;
+#X obj 390 270 r \$0-seq4;
+#X obj 390 292 save.me.mmb eq4 \$0-eq13;
+#X obj 390 314 s \$0-req4;
+#X obj 391 335 r \$0-seq5;
+#X obj 391 357 save.me.mmb eq5 \$0-eq13;
+#X obj 391 379 s \$0-req5;
+#X obj 391 402 r \$0-seq6;
+#X obj 391 424 save.me.mmb eq6 \$0-eq13;
+#X obj 391 446 s \$0-req6;
+#X obj 517 5 r \$0-seq7;
+#X obj 517 27 save.me.mmb eq7 \$0-eq13;
+#X obj 517 49 s \$0-req7;
+#X obj 517 72 r \$0-seq8;
+#X obj 517 94 save.me.mmb eq8 \$0-eq13;
+#X obj 517 116 s \$0-req8;
+#X obj 517 137 r \$0-seq9;
+#X obj 517 159 save.me.mmb eq9 \$0-eq13;
+#X obj 517 181 s \$0-req9;
+#X obj 517 204 r \$0-seq10;
+#X obj 517 226 save.me.mmb eq10 \$0-eq13;
+#X obj 517 248 s \$0-req10;
+#X obj 517 292 save.me.mmb eq11 \$0-eq13;
+#X obj 517 270 r \$0-seq11;
+#X obj 517 314 s \$0-req11;
+#X obj 517 337 r \$0-seq12;
+#X obj 517 381 s \$0-req12;
+#X obj 517 359 save.me.mmb eq12 \$0-eq13;
+#X obj 518 402 r \$0-seqv;
+#X obj 518 424 save.me.mmb eqv \$0-eq13;
+#X obj 518 446 s \$0-reqv;
+#X obj -8 133 route 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16;
+#X floatatom 450 4 5 0 0 0 - - -;
+#X obj 391 4 r \$0-seq0;
+#X obj 391 48 s \$0-req0;
+#X msg 85 535 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 98 589 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 112 643 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 125 697 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 138 751 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 152 805 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 165 859 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 178 913 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 192 967 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X msg 205 1020 eq1 0.327586 \, eqv 0.672414 \, eq12 0.948276 \, eq11
+0.5 \, eq10 0.706897 \, eq9 0.396552 \, eq8 0.310345 \, eq7 1 \, eq6
+0.293103 \, eq5 0.637931 \, eq4 0.810345 \, eq3 0.396552 \, eq2 0.344828
+\, eq1 0.551724 \,;
+#X obj 391 26 save.me.mmb eq0 \$0-eq13;
+#X connect 1 0 68 0;
+#X connect 2 0 29 0;
+#X connect 4 0 30 0;
+#X connect 5 0 2 0;
+#X connect 6 0 4 0;
+#X connect 7 0 4 0;
+#X connect 8 0 4 0;
+#X connect 9 0 4 0;
+#X connect 10 0 4 0;
+#X connect 11 0 4 0;
+#X connect 12 0 4 0;
+#X connect 13 0 1 1;
+#X connect 13 0 68 0;
+#X connect 14 0 16 0;
+#X connect 15 0 0 0;
+#X connect 15 0 14 0;
+#X connect 29 0 1 0;
+#X connect 31 0 29 0;
+#X connect 32 0 17 0;
+#X connect 32 0 33 0;
+#X connect 33 0 34 0;
+#X connect 35 0 18 0;
+#X connect 35 0 36 0;
+#X connect 36 0 37 0;
+#X connect 38 0 19 0;
+#X connect 38 0 39 0;
+#X connect 39 0 40 0;
+#X connect 41 0 20 0;
+#X connect 41 0 42 0;
+#X connect 42 0 43 0;
+#X connect 44 0 21 0;
+#X connect 44 0 45 0;
+#X connect 45 0 46 0;
+#X connect 47 0 22 0;
+#X connect 47 0 48 0;
+#X connect 48 0 49 0;
+#X connect 50 0 23 0;
+#X connect 50 0 51 0;
+#X connect 51 0 52 0;
+#X connect 53 0 24 0;
+#X connect 53 0 54 0;
+#X connect 54 0 55 0;
+#X connect 56 0 25 0;
+#X connect 56 0 57 0;
+#X connect 57 0 58 0;
+#X connect 59 0 61 0;
+#X connect 60 0 26 0;
+#X connect 60 0 59 0;
+#X connect 62 0 27 0;
+#X connect 62 0 64 0;
+#X connect 64 0 63 0;
+#X connect 65 0 28 0;
+#X connect 65 0 66 0;
+#X connect 66 0 67 0;
+#X connect 68 0 6 0;
+#X connect 68 1 7 0;
+#X connect 68 2 8 0;
+#X connect 68 3 9 0;
+#X connect 68 4 10 0;
+#X connect 68 5 11 0;
+#X connect 68 6 12 0;
+#X connect 68 7 72 0;
+#X connect 68 8 73 0;
+#X connect 68 9 74 0;
+#X connect 68 10 75 0;
+#X connect 68 11 76 0;
+#X connect 68 12 77 0;
+#X connect 68 13 78 0;
+#X connect 68 14 79 0;
+#X connect 68 15 80 0;
+#X connect 68 16 81 0;
+#X connect 70 0 69 0;
+#X connect 70 0 82 0;
+#X connect 72 0 4 0;
+#X connect 73 0 4 0;
+#X connect 74 0 4 0;
+#X connect 75 0 4 0;
+#X connect 76 0 4 0;
+#X connect 77 0 4 0;
+#X connect 78 0 4 0;
+#X connect 79 0 4 0;
+#X connect 80 0 4 0;
+#X connect 81 0 4 0;
+#X connect 82 0 71 0;
+#X restore 202 1 pd \$0-statesaving;
+#X obj 8 23 vsl 8 59 0 1 0 0 \$0-seq0 \$0-req0 empty 0 -9 0 10 -262144
+-1 -1 100 1;
+#X obj 18 23 vsl 8 59 0 1 0 0 \$0-seq1 \$0-req1 empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 28 23 vsl 8 59 0 1 0 0 \$0-seq2 \$0-req2 empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 38 23 vsl 8 59 0 1 0 0 \$0-seq3 \$0-req3 empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 48 23 vsl 8 59 0 1 0 0 \$0-seq4 \$0-req4 empty 0 -9 0 10 -262144
+-1 -1 400 1;
+#X obj 58 23 vsl 8 59 0 1 0 0 \$0-seq5 \$0-req5 empty 0 -9 0 10 -262144
+-1 -1 0 1;
+#X obj 68 23 vsl 8 59 0 1 0 0 \$0-seq6 \$0-req6 empty 0 -9 0 10 -262144
+-1 -1 1700 1;
+#X obj 78 23 vsl 8 59 0 1 0 0 \$0-seq7 \$0-req7 empty 0 -9 0 10 -262144
+-1 -1 5800 1;
+#X obj 88 23 vsl 8 59 0 1 0 0 \$0-seq8 \$0-req8 empty 0 -9 0 10 -262144
+-1 -1 1800 1;
+#X obj 98 23 vsl 8 59 0 1 0 0 \$0-seq9 \$0-req9 empty 0 -9 0 10 -262144
+-1 -1 2300 1;
+#X obj 108 23 vsl 8 59 0 1 0 0 \$0-seq10 \$0-req10 empty 0 -9 0 10
+-262144 -1 -1 4100 1;
+#X obj 118 23 vsl 8 59 0 1 0 0 \$0-seq11 \$0-req11 empty 0 -9 0 10
+-262144 -1 -1 2900 1;
+#X obj 128 23 vsl 8 59 0 1 0 0 \$0-seq12 \$0-req12 empty 0 -9 0 10
+-262144 -1 -1 5500 1;
+#X obj 162 1 inlet~;
+#X obj 162 44 outlet~;
+#N canvas 656 270 565 662 \$0-eq13 0;
+#X obj 7 -102 inlet~;
+#X obj 2 539 outlet~;
+#X obj 7 195 para_bp2~ 20 0.2 0 10;
+#X obj 6 215 para_bp2~ 150 0.4 0 10;
+#X obj 6 235 para_bp2~ 300 0.5 0 10;
+#X obj 5 255 para_bp2~ 600 1 0 10;
+#X obj 6 275 para_bp2~ 1000 2 0 10;
+#X obj 5 295 para_bp2~ 1500 2 0 10;
+#X obj 5 315 para_bp2~ 2500 1.5 0 10;
+#X obj 4 335 para_bp2~ 4000 1.5 0 10;
+#X obj 2 519 *~ 1;
+#X obj 126 180 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 142 200 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 161 220 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 177 240 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 195 260 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 211 280 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 230 300 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 246 320 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 262 340 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 281 360 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 297 381 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 19 478 * 2;
+#X obj 19 498 expr pow($f1 \, 2);
+#X obj 3 375 para_bp2~ 7000 1 0 10;
+#X obj 4 355 para_bp2~ 5500 1.5 0 10;
+#X obj 2 396 para_bp2~ 10000 0.5 0 10;
+#X obj 7 175 hip~ 20;
+#X obj 2 417 para_bp2~ 15000 0.5 0 10;
+#X obj 315 402 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 331 423 expr if ($f1<0.5 \, ($f1-0.5)*80 \, ($f1-0.5)*20);
+#X obj 2 438 para_bp2~ 20000 0.2 0 10;
+#X obj 126 -80 r \$0-seq0;
+#X obj 142 -60 r \$0-seq1;
+#X obj 161 -40 r \$0-seq2;
+#X obj 177 -20 r \$0-seq3;
+#X obj 195 0 r \$0-seq4;
+#X obj 211 20 r \$0-seq5;
+#X obj 230 40 r \$0-seq6;
+#X obj 246 60 r \$0-seq7;
+#X obj 262 80 r \$0-seq8;
+#X obj 281 100 r \$0-seq9;
+#X obj 297 120 r \$0-seq10;
+#X obj 315 140 r \$0-seq11;
+#X obj 331 160 r \$0-seq12;
+#X obj 19 458 r \$0-seqv;
+#X connect 0 0 27 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 25 0;
+#X connect 10 0 1 0;
+#X connect 11 0 2 3;
+#X connect 12 0 3 3;
+#X connect 13 0 4 3;
+#X connect 14 0 5 3;
+#X connect 15 0 6 3;
+#X connect 16 0 7 3;
+#X connect 17 0 8 3;
+#X connect 18 0 9 3;
+#X connect 19 0 25 3;
+#X connect 20 0 24 3;
+#X connect 21 0 26 3;
+#X connect 22 0 23 0;
+#X connect 23 0 10 1;
+#X connect 24 0 26 0;
+#X connect 25 0 24 0;
+#X connect 26 0 28 0;
+#X connect 27 0 2 0;
+#X connect 28 0 31 0;
+#X connect 29 0 28 3;
+#X connect 30 0 31 3;
+#X connect 31 0 10 0;
+#X connect 32 0 11 0;
+#X connect 33 0 12 0;
+#X connect 34 0 13 0;
+#X connect 35 0 14 0;
+#X connect 36 0 15 0;
+#X connect 37 0 16 0;
+#X connect 38 0 17 0;
+#X connect 39 0 18 0;
+#X connect 40 0 19 0;
+#X connect 41 0 20 0;
+#X connect 42 0 21 0;
+#X connect 43 0 29 0;
+#X connect 44 0 30 0;
+#X connect 45 0 22 0;
+#X restore 162 22 pd \$0-eq13;
+#X obj 9 95 hradio 8 1 0 17 \$0-sps \$0-rps empty 0 -8 0 10 -262144
+-1 -1 1;
+#X obj 138 23 vsl 8 59 0 1 0 0 \$0-seqv \$0-reqv empty 0 -9 0 10 -262144
+-1 -1 3900 1;
+#X obj 138 8 bng 8 250 50 0 \$0-spresetsave \$0-rpresetsave empty 17
+7 0 10 -261234 -1 -1;
+#X obj 8 9 cnv 6 6 6 empty empty Equalizer 0 4 1 9 -262144 -66577 0
+;
+#X connect 14 0 16 0;
+#X connect 16 0 15 0;
+#X coords 0 -1 1 1 156 113 2 0 0;
